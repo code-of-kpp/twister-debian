@@ -1,0 +1,16 @@
+Source: twister-core
+Maintainer: Konstantin Podshumok
+Section: net
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), autoconf, libtool, libboost-all-dev, libssl-dev, libdb++-dev, libminiupnpc-dev
+
+Package: twister-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: p2p microblogging
+ twister is an experimental peer-to-peer microblogging software.
+ User registration and authentication is provided by a bitcoin-like network,
+ so it is completely distributed (does not depend on any central authority).
+ Post distribution uses kademlia DHT network and bittorrent-like swarms,
+ both are provided by libtorrent.
