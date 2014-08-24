@@ -1,4 +1,4 @@
 # bzr-builder format 0.3 deb-version 0.9+{revno}
-lp:master
-nest-part packaging lp:packing debian debian
+lp:twister-core
+nest-part packaging lp:~podshumok/twister-core/packing debian debian
 run debian/changelog-bzr.sh
