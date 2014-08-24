@@ -1,4 +1,6 @@
 #!/usr/bin/make -f
 %:
-	dh $@ --parallel --with autotools_dev --disable qmake_qt4
+	dh $@ --parallel --with autotools_dev
 
+override_dh_auto_configure:
+	dh_auto_configure $@ -- --with autotools_dev
