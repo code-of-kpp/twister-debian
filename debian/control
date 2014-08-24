@@ -1,9 +1,13 @@
 Source: twister-core
-Maintainer: Konstantin Podshumok (podshumok@github)
+Maintainer: Konstantin Podshumok (kpp.live@gmail.com)
+XSBC-Original-Maintainer: Miguel Freitas
 Section: net
 Priority: optional
-Standards-Version: 3.9.2
+Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9), autoconf, libtool, libboost-all-dev, libssl-dev, libdb++-dev, libminiupnpc-dev
+Vcs-Git: https://github.com/miguelfreitas/twister-core
+Homepage: http://www.twister.net.co/
+
 
 Package: twister-core
 Architecture: any
