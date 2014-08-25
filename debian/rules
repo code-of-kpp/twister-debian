@@ -3,4 +3,5 @@
 	dh $@ --parallel --with autotools_dev
 
 override_dh_auto_configure:
-	dh_auto_configure $@ -- --with autotools_dev
+	./autotool.sh
+	./configure --prefix=/usr
