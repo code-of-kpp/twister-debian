@@ -9,11 +9,6 @@ Vcs-Git: https://github.com/miguelfreitas/twister-core
 Homepage: http://www.twister.net.co/
 
 
-Package: twister
-Architecture: all
-Description: p2p microblogging (meta-package)
-
-
 Package: twister-core
 Architecture: any
 Depends: twister, ${shlibs:Depends}, ${misc:Depends}
