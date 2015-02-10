@@ -11,7 +11,7 @@ Homepage: http://www.twister.net.co/
 
 Package: twister-core
 Architecture: any
-Depends: twister, ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: p2p microblogging
  twister is an experimental peer-to-peer microblogging software.
  User registration and authentication is provided by a bitcoin-like network,
